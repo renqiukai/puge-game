@@ -65,9 +65,9 @@ npx http-server -p 8000
 
 ```css
 :root {
-    --primary-color: #1a1a1a;
-    --accent-color: #c41e3a;  /* 主题色 */
-    /* ... 其他颜色变量 */
+  --primary-color: #1a1a1a;
+  --accent-color: #c41e3a; /* 主题色 */
+  /* ... 其他颜色变量 */
 }
 ```
 
@@ -75,9 +75,11 @@ npx http-server -p 8000
 
 1. 将新的 Markdown 文件放在同一目录下
 2. 在 `index.html` 的导航栏中添加按钮：
+
 ```html
 <button class="nav-btn" data-file="新章节.md">新章节标题</button>
 ```
+
 3. 在 `script.js` 的 `chapters` 数组中添加文件名
 
 ## 浏览器兼容性
