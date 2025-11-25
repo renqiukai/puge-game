@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>璞哥游戏 - 小说集</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="site-title">璞哥游戏</h1>
+            <p class="site-subtitle">一场关于生存与人性的黑暗游戏</p>
+        </header>
+
+        <nav class="chapter-nav">
+            <button class="nav-btn active" data-file="开局·铁幕降临.md">开局·铁幕降临</button>
+            <button class="nav-btn" data-file="迷阵·结盟与裂缝.md">迷阵·结盟与裂缝</button>
+            <button class="nav-btn" data-file="厮杀·背叛溢血.md">厮杀·背叛溢血</button>
+            <button class="nav-btn" data-file="黑幕·璞哥的手.md">黑幕·璞哥的手</button>
+            <button class="nav-btn" data-file="反转·胜利的代价.md">反转·胜利的代价</button>
+        </nav>
+
+        <main class="content">
+            <div id="loading" class="loading">加载中...</div>
+            <article id="chapter-content" class="chapter-content"></article>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 璞哥游戏 | 所有章节按顺序排列</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
