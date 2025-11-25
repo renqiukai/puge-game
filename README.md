@@ -82,7 +82,7 @@ npx http-server -p 8000
 
 3. 在 `script.js` 的 `chapters` 数组中添加文件名
 
-## 浏览器兼容性
+## 浏览器兼容性 特别好
 
 - Chrome/Edge 90+
 - Firefox 88+
